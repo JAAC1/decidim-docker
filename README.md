@@ -110,7 +110,7 @@ guarde los cambios realizados
 
 # Ingresa a decidim
 
-en el navegor escribe la dirección url colocada en el archivo host
+en el navegor escribe la dirección url my-decidim.org url colocada en el archivo host
 
 ```
 my-decidim.org
