@@ -99,3 +99,19 @@ abra la ventana de comandos de windows cmd o la terminal powershell como adminis
 ```
 notepad C:\Windows\System32\drivers\etc\hosts
 ```
+
+agregue al final la linea
+
+```
+127.0.0.1 my-decidim.org
+```
+
+guarde los cambios realizados
+
+# Ingresa a decidim
+
+en el navegor escribe la dirección url colocada en el archivo host
+
+```
+my-decidim.org
+```
