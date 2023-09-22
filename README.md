@@ -2,8 +2,13 @@
 ```
 docker compose up -d
 ```
-# pg bash (contenedor de decidim-postgres)
+
+# instala base de datos
+
+contendor de decidim-postgres
+```
 docker exec -it decidim-postgres bash
+```
 
 # instale la base de datos
 
