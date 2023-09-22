@@ -1,7 +1,7 @@
 # decidim-docker
-¨¨
+```
 docker compose up -d
-¨¨
+```
 # pg bash (contenedor de decidim-postgres)
 docker exec -it decidim-postgres bash
 
