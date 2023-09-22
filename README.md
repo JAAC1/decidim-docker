@@ -69,4 +69,7 @@ rails console -e production
 ```
 o bien 
 
+```
+bin/rails console -e production
+```
 
