@@ -62,4 +62,11 @@ bin/rails assets:precompile db:migrate RAILS_ENV=production
 == 20230903030686 AddFollowableCounterCacheToBlogs: migrated (0.0038s) ========
 ~~~
 
+ir a la consola de comandos de rails
+
+```
+rails console -e production
+```
+o bien 
+
 
