@@ -91,3 +91,11 @@ user = Decidim::System::Admin.new(email: email, password: password, password_con
 user.save!
 ```
 escriba quit o CTRL+D para salir de la consola de Rails.
+
+# Modifica el archivo host en windows
+
+abra el cmd o la terminal powershell como administrador y ejecute
+
+```
+notepad C:\Windows\System32\drivers\etc\hosts
+```
