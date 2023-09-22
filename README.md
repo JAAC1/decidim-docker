@@ -1,4 +1,10 @@
+# Crear network
+```
+docker create network decidim
+```
+
 # decidim-docker
+
 ```
 docker compose up -d
 ```
