@@ -6,6 +6,7 @@ docker compose up -d
 # instala base de datos
 
 contendor de decidim-postgres
+
 ```
 docker exec -it decidim-postgres bash
 ```
