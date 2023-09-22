@@ -23,6 +23,24 @@ cree el usuario deicidim_app
 CREATE USER decidim_app WITH SUPERUSER CREATEDB NOCREATEROLE PASSWORD 'Password1';
 ```
 
+Salga del Prompt de psql con \q o presionando CTRL+D.
+
+Salga del contenedor con exit o presionando CTRL+D
+
+# Configure la base de datos con rails
+
+contenedor de decidim-ubuntu
+
+```
+docker exec -it decidim-ubuntu /bin/bash
+```
+
+ingrese a la carpeta de la app
+
+```
+cd ~/decidim-app
+```
+
 
 
 
