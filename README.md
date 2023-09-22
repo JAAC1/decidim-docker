@@ -41,6 +41,25 @@ ingrese a la carpeta de la app
 cd ~/decidim-app
 ```
 
+cree la base de datos
 
+```
+bin/rails db:create RAILS_ENV=production
+```
+
+precompile y migre los datos iniciales
+
+```
+bin/rails assets:precompile db:migrate RAILS_ENV=production
+```
+
+~~~
+[output]
+...
+== 20230903030686 AddFollowableCounterCacheToBlogs: migrating =================
+-- add_column(:decidim_blogs_posts, :follows_count, :integer, {:null=>false, :default=>0, :index=>true})
+   -> 0.0009s
+== 20230903030686 AddFollowableCounterCacheToBlogs: migrated (0.0038s) ========
+~~~
 
 
